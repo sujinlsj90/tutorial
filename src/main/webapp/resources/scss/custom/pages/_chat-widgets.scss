@@ -1,0 +1,101 @@
+/*******************/
+/*Chat widget*/
+/*******************/
+.chat-box{
+    overflow: auto;
+}
+.mailbox .chat-scroll {
+    height: calc(100vh - 111px) !important;
+}
+.chat-list {
+    .chat-item {
+        .chat-img {
+            width: 45px;
+            vertical-align: top;
+        }
+        .chat-content {
+            width: calc(100% - 50px);
+        }
+        .chat-time {
+            margin-left:65px;
+        }
+        &.odd {
+            .chat-content {
+                width: calc(100% - 0px);
+            }
+            .box {
+                clear: both;
+            }
+        }
+        &.odd + .odd {
+            margin-top: 0px;
+        }
+        &.reverse {
+            text-align: right;
+            .chat-time {
+                text-align: left;
+            }
+            .chat-content {
+                padding-left: 0px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+
+/*******************/
+/*Chat widget*/
+/*******************/
+
+.mailbox .chat-scroll{
+    height:calc(100vh - 100px);
+}
+
+.mailbox {
+    .message-center {
+        height:$mailbox-height;
+        overflow: auto;
+        position: relative;
+        .message-item {
+            display: flex;
+            &:hover,
+            &.active {
+                background: $gray-100;
+            }
+            .message-title{
+                color:$gray-900;
+            }
+            .user-img {
+                position: relative;
+                .profile-status {
+                    border: 2px solid $gray-0;
+                    border-radius: 50%;
+                    display: inline-block;
+                    height: 10px;
+                    left: 30px;
+                    position: absolute;
+                    top: 1px; 
+                    width: 10px;
+                }
+                .online {
+                    background: $success;
+                }
+                .busy {
+                    background: $danger;
+                }
+                .away {
+                    background: $warning;
+                }
+                .offline {
+                    background: $warning;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

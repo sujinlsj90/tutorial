@@ -1,0 +1,147 @@
+// This is for the datatable
+.table.dataTable {
+    border-collapse: collapse !important;
+}
+
+.dataTables_wrapper {
+    padding: 0px;
+}
+
+.note-editor.note-frame,
+.dropzone {
+    border-color: $border-color;
+}
+
+.note-toolbar-wrapper {
+    height: 33px !important;
+}
+
+.dropzone {
+    border-style: dotted;
+}
+
+.note-toolbar {
+    z-index: 1;
+}
+
+// this is for custom pills
+.nav-pills.custom-pills {
+    .nav-link {
+        border-radius: 0;
+        opacity: 0.7;
+
+        &.active {
+            color: $themecolor;
+            opacity: 1;
+            background-color: transparent;
+            border-bottom: 2px solid $themecolor;
+        }
+    }
+}
+
+// Form row Separator
+
+.r-separator .form-group {
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.striped-rows .row:nth-child(odd) {
+    background-color: $gray-100;
+}
+
+.b-form .row {
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 0;
+    padding: 15px 0;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.b-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+// Custom validation Classes
+.error {
+    .form-control {
+        border-color: $danger;
+    }
+
+    .help-block {
+        color: $danger;
+    }
+}
+
+.validate {
+    .form-control {
+        border-color: $success;
+    }
+
+    .help-block {
+        color: $success;
+    }
+}
+
+.docs-buttons .btn,
+.docs-data .input-group {
+    margin-bottom: 5px;
+}
+
+// scrollbar
+.scrollable {
+    position: relative;
+}
+
+.price-label {
+    position: absolute;
+    top: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.price-sign {
+    position: absolute;
+    font-size: 15px;
+    top: 5px;
+    margin-left: -10px;
+}
+
+
+/*******************/
+/*Guage chart*/
+/*******************/
+
+.gaugejs-box {
+    position: relative;
+    margin: 0 auto;
+}
+
+.gaugejs-box canvas.gaugejs {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.custom-range,
+[type=search],
+button.close {
+    -webkit-appearance: none
+}
+
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none
+}
+
+.custom-range::-moz-range-thumb {
+    -moz-appearance: none
+}

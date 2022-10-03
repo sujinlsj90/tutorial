@@ -1,0 +1,25 @@
+@media (min-height: 33.875em) {
+    .picker--opened .picker__frame {
+        top: 30%;
+        bottom: auto;
+    }
+}
+
+.dtp>.dtp-content>.dtp-date-view>header.dtp-header {
+    background: #1d50de;
+}
+
+.dtp div.dtp-date,
+.dtp div.dtp-time,
+.dtp table.dtp-picker-days tr>td>a.selected {
+    background: $info;
+}
+
+.dtp .p10>a {
+    color: $gray-0;
+}
+
+.datepicker .day,
+.datepicker .dow {
+    padding: 5px 10px;
+}
