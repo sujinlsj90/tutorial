@@ -1,0 +1,281 @@
+// Theme Color Dark
+
+body[data-theme="dark"] {
+
+    /* Background colors */
+
+    .note-editor.note-frame .note-editing-area .note-editable,
+    .note-editor.note-frame .note-statusbar,
+    .lobilists .lobilist,
+    .jsgrid-header-row>.jsgrid-header-cell,
+    .jsgrid-row>.jsgrid-cell,
+    .css-bar:after,
+    .select2-container--default .select2-selection--single,
+    .select2-container--default .select2-selection--multiple,
+    .select2-container--classic .select2-selection--single,
+    .dtp>.dtp-content,
+    .cke_top {
+        background-color: $card-bg;
+    }
+
+    .dropzone,
+    .mailbox .message-center .message-item:hover,
+    .dropdown-item:hover,
+    .dropdown-item:focus,
+    .picker__button--today,
+    .picker__button--clear,
+    .picker__button--close {
+        background: $card-bg;
+    }
+
+    .right-part.mail-list,
+    .right-part.mail-details,
+    .right-part.mail-compose,
+    .left-part,
+    .card-footer,
+    .typeahead.form-control,
+    .select2-dropdown {
+        background-color: $card-bg !important;
+    }
+
+    .wizard:not(.wizard-circle)>.steps .disabled a,
+    .wizard:not(.wizard-circle)>.steps .disabled a:hover,
+    .wizard:not(.wizard-circle)>.steps .disabled a:active,
+    .wizard:not(.wizard-circle)>.content,
+    .wizard:not(.wizard-circle)>.actions .disabled a,
+    .wizard:not(.wizard-circle)>.actions .disabled a:hover,
+    .wizard:not(.wizard-circle)>.actions .disabled a:active,
+    .wizard-content .wizard>.steps .step,
+    .cke_toolbar_separator,
+    .footable .pagination li a {
+        background-color: $body-bg;
+    }
+
+    .fc-unthemed td.fc-today,
+    .fc-toolbar .fc-button.fc-state-active,
+    .picker__list-item,
+    .picker__box,
+    .picker--time .picker__box,
+    .daterangepicker,
+    .daterangepicker .calendar-table {
+        background: $dark;
+    }
+
+    .fc-unthemed .fc-divider,
+    .fc-unthemed .fc-list-heading td,
+    .fc-unthemed .fc-popover .fc-header {
+        background: $body-color;
+    }
+
+    .daterangepicker td.off,
+    .daterangepicker td.off.in-range,
+    .daterangepicker td.off.start-date,
+    .daterangepicker td.off.end-date {
+        background: $black;
+    }
+
+    .timeline:before {
+        background-color: $gray-800;
+    }
+
+    .cd-horizontal-timeline .events {
+        background: $gray-800;
+    }
+
+    .noUi-target,
+    .noUi-tooltip,
+    .bootstrap-switch .bootstrap-switch-label,
+    .striped-rows .row:nth-child(odd),
+    .dp-off,
+    .footable-odd,
+    .jsgrid-alt-row>.jsgrid-cell,
+    .jsgrid-filter-row>.jsgrid-cell,
+    .cd-horizontal-timeline .events a::after,
+    .css-bar>i,
+    div.mce-edit-area,
+    .mce-menu-item.mce-disabled,
+    .mce-menu-item.mce-disabled:hover {
+        background: $gray-100 !important;
+    }
+
+    /* Background Alt colors */
+
+    .chat-list .chat-item .chat-content .box.bg-light-info,
+    pre[class*="language-"],
+    .f-icon:hover,
+    .t-icon:hover,
+    .w-icon:hover,
+    .sl-icon:hover,
+    .if-icon:hover,
+    .m-icon:hover,
+    .myadmin-dd .dd-list .dd-item .dd-handle,
+    .myadmin-dd-empty .dd-list .dd3-content,
+    .myadmin-dd-empty .dd-list .dd3-handle,
+    .mce-panel,
+    .mce-content-body,
+    .toast,
+    .toast-header {
+        background-color: $background-alt !important;
+    }
+
+    .timeline>.timeline-item>.timeline-panel:after {
+        border-right: $border-color;
+        border-left: $border-color;
+    }
+
+    .mce-menubar .mce-menubtn:hover,
+    .mce-menubar .mce-menubtn.mce-active,
+    .mce-menubar .mce-menubtn:focus {
+        background: $dark;
+        border-color: $border-color;
+    }
+
+    .mce-btn {
+        background: $dark;
+        text-shadow: none;
+
+        button {
+            color: $body-color;
+        }
+    }
+
+    /* Font colors */
+
+    .chat-list .chat-item .chat-content .box.bg-light-info,
+    .note-editor.note-frame .note-editing-area .note-editable,
+    .lobilists .btn-link,
+    .mce-menubar .mce-menubtn button span,
+    .mce-ico,
+    .noUi-tooltip,
+    .picker,
+    .select2-container--classic .select2-selection--single,
+    .select2-container--default .select2-selection--multiple,
+    .select2-container--default .select2-selection--single,
+    .select2-container--default .select2-selection--single .select2-selection__arrow,
+    .select2-container--default .select2-selection--single .select2-selection__rendered,
+    .dtp table.dtp-picker-days tr>td>a,
+    .dtp .dtp-picker-time>a,
+    .cke_reset_all,
+    .cke_reset_all *,
+    .cke_reset_all a,
+    .cke_reset_all textarea {
+        color: $body-color !important;
+    }
+
+    .mailbox .message-center .message-item .message-title,
+    .lobilists .lobilist-item-title {
+        color: $gray-0;
+    }
+
+    /* Border Colors */
+
+    .border-left-line,
+    .fixed-table-container,
+    pre[class*="language-"],
+    .left-part,
+    .profiletimeline,
+    .note-editor.note-frame,
+    .dropzone,
+    .note-editor.note-frame .note-statusbar,
+    .mailbox .message-center .message-item,
+    .lobilists .lobilist,
+    .lobilists .lobilist-item,
+    .lobilists .lobilist-item .drag-handler,
+    .lobilists .lobilist-footer,
+    .lobilists .lobilist-form-footer,
+    .bootstrap-switch,
+    .r-separator .form-group,
+    .b-form .row,
+    .datepaginator-sm .pagination li a,
+    .datepaginator-lg .pagination li a,
+    .datepaginator .pagination li a,
+    .ql-toolbar.ql-snow,
+    .ql-container.ql-snow,
+    .jsgrid-edit-row>.jsgrid-cell,
+    .jsgrid-filter-row>.jsgrid-cell,
+    .jsgrid-grid-body,
+    .jsgrid-grid-header,
+    .jsgrid-header-row>.jsgrid-header-cell,
+    .jsgrid-insert-row>.jsgrid-cell,
+    .jsgrid-pager-page a,
+    .jsgrid-pager-current-page,
+    .jsgrid-pager-nav-button a,
+    .timeline>.timeline-item>.timeline-panel,
+    .cd-horizontal-timeline .events a::after,
+    .cd-timeline-navigation a,
+    .mailbox .nav-link,
+    .e-campaign .c-cost,
+    .mce-panel,
+    .mce-menubar,
+    .mce-btn-group:not(:first-child),
+    .mce-btn:hover,
+    .mce-btn:active,
+    .mce-splitbtn:hover .mce-open,
+    .noUi-tooltip,
+    .picker__list-item,
+    .picker__button--today,
+    .picker__button--clear,
+    .picker__button--close,
+    .daterangepicker,
+    .daterangepicker .calendar-table,
+    .daterangepicker .drp-buttons,
+    .select2-container--default .select2-selection--single,
+    .select2-container--default .select2-selection--multiple,
+    .select2-container--classic .select2-selection--single,
+    .select2-dropdown,
+    .cke_chrome,
+    .cke_toolgroup a.cke_button:last-child:after,
+    .cke_toolgroup a.cke_button.cke_button_disabled:hover:last-child:after,
+    .wizard-content .wizard.wizard-circle>.steps .step,
+    .footable .pagination li a {
+        border-color: $border-color !important;
+    }
+
+    table.footable,
+    table.footable-details {
+        border: $border-color !important;
+    }
+
+    .dd3-content,
+    .dd-handle {
+        border: 1px solid $gray-900;
+    }
+
+    .wizard-content .wizard>.steps>ul>li.current {
+        .step {
+            border-color: $themecolor !important;
+            background-color: $black;
+        }
+
+        >a {
+            color: $gray-0;
+        }
+    }
+
+    .wizard-content {
+
+        .wizard.wizard-circle>.steps>ul>li.current:after,
+        .wizard.wizard-circle>.steps>ul>li.current~li:after,
+        .wizard.wizard-circle>.steps>ul>li.current~li:before {
+            background-color: $border-color;
+        }
+
+        .wizard.vertical>.steps>ul>li.current:after,
+        .wizard.vertical>.steps>ul>li.current:before,
+        .wizard.vertical>.steps>ul>li.current~li:after,
+        .wizard.vertical>.steps>ul>li.current~li:before,
+        .wizard.vertical>.steps>ul>li:after,
+        .wizard.vertical>.steps>ul>li:before {
+            background-color: transparent;
+        }
+    }
+
+    .ct-label {
+        fill: $body-color;
+        color: $body-color;
+    }
+
+    .ct-grid {
+        stroke: $background-alt;
+    }
+}

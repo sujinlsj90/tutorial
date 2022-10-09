@@ -1,0 +1,56 @@
+.email-app {
+    .list-group {
+        .list-group-item {
+            background: transparent;
+
+            .list-group-item-action {
+
+                &:hover,
+                &.active {
+                    background: rgba(0, 0, 0, 0.03);
+                }
+            }
+        }
+    }
+
+    .mail-list,
+    .mail-details,
+    .mail-compose {
+        background: $gray-0;
+    }
+
+    .email-table {
+        table-layout: fixed;
+
+        .selected {
+            background: #fff8e1;
+        }
+
+        .chb {
+            width: 50px;
+        }
+
+        .time {
+            width: 100px;
+        }
+
+        .starred,
+        .clip {
+            width: 25px;
+        }
+
+        .user-image {
+            width: 45px;
+        }
+
+        .user-name {
+            width: 130px;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .email-table {
+        min-width: 500px;
+    }
+}

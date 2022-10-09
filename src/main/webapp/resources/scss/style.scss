@@ -1,0 +1,66 @@
+// (Required file)
+@import 'bootstrap/functions';
+//@import 'bootstrap/variables';
+@import 'config/default/variables';
+@import 'config/default/custom-variables';
+
+// Import Bootstrap source files (Required file)
+@import 'bootstrap/bootstrap';
+
+// Structure
+@import 'custom/structure/layout';
+@import 'custom/structure/preloader';
+@import 'custom/structure/navbar';
+@import 'custom/structure/sidebar';
+@import 'custom/structure/customizer';
+
+// Settings
+@import 'custom/structure/horizontal/horizontal';
+@import 'custom/structure/rtl/rtl';
+
+// Theme Colors
+@import 'custom/theme-colors/dark-theme';
+@import 'custom/theme-colors/theme-colors';
+
+// Components
+@import 'custom/components/tables';
+@import 'custom/components/breadcrumb';
+@import 'custom/components/buttons';
+@import 'custom/components/reboot';
+@import 'custom/components/badge';
+@import 'custom/components/card';
+@import 'custom/components/forms';
+@import 'custom/components/dropdown';
+@import 'custom/components/carousel';
+@import 'custom/components/popover';
+
+// Pages
+@import 'custom/pages/authentication';
+@import 'custom/pages/emails';
+@import 'custom/pages/taskboard';
+@import 'custom/pages/typeahead';
+@import 'custom/pages/gallery-card';
+@import 'custom/pages/google-vector';
+@import 'custom/pages/chat-widgets';
+@import 'custom/pages/timeline';
+@import 'custom/pages/nestable';
+@import 'custom/pages/charts';
+@import 'custom/pages/errors';
+
+// Widgets
+@import 'custom/widgets/chat';
+@import 'custom/widgets/task';
+@import 'custom/widgets/profile-timeline';
+@import 'custom/widgets/activity';
+
+// Plugins
+@import 'custom/plugins/animation';
+@import 'custom/plugins/perfect-scrollbar';
+@import 'custom/plugins/extra';
+@import 'custom/plugins/datepicker';
+@import 'custom/plugins/footable';
+@import 'custom/plugins/select2';
+@import 'custom/plugins/nestable';
+
+// Icons
+@import 'icons/icons';
